@@ -3,15 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.61.0",
+    "@types/eslint__js": "^8.42.3",
     "@types/node": "^25.9.3",
     "allure-commandline": "^2.42.1",
-    "allure-playwright": "^3.10.0"
+    "allure-playwright": "^3.10.0",
+    "eslint": "^10.5.0",
+    "typescript-eslint": "^8.61.1"
   }
 }
